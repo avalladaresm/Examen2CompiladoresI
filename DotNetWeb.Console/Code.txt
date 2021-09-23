@@ -1,0 +1,17 @@
+﻿{% init
+    int a;
+    float b;
+    string x;
+
+    a = 5;
+    b = 5.68;
+    x = 'test';
+%}
+
+<div>
+    {{a}}
+</div>
+
+<div>
+{%if a > 0 %} <b>{{ a }}</b>{% endif %}
+</div>
